@@ -33,10 +33,8 @@ $ cat ~/focus.txt
 > Red-team fundamentals + blue-team deception. Currently going deep on Active Directory,
 > adversary emulation (MITRE ATT&CK), and turning honeypots into threat intel.
 
-$ ./goals.sh
-[+] PFE internship 2027 — pentest / purple team
-[+] Open to relocation: UK / Ireland / Finland / France
-[+] Cert track: CPTS in progress, OSCP next
+$ ls ~/lab/
+active-directory/   honeypots/   firmware-research/   detection-rules/
 ```
 
 ---
@@ -59,19 +57,16 @@ $ ./goals.sh
 
 ---
 
-### What I'm building
+### Selected Work
 
-- **Purple AD Lab** — adversary emulation (MITRE ATT&CK) against a vulnerable Active Directory, detected end-to-end with Wazuh + Sigma. Attack it, catch it, document the gap.
-- **Cyber-deception platform** — realistic decoy documents monitored via Wazuh & Canarytokens, correlating endpoint alerts with remote token triggers.
-- **IoT vuln research** — firmware analysis toward responsible disclosure.
+**🟣 Purple AD Lab** &nbsp;·&nbsp; *Adversary emulation + detection engineering*
+Emulate real ATT&CK techniques (Kerberoasting, NTLM relay, DCSync, BloodHound paths) against a vulnerable Active Directory, then catch every one of them end-to-end with Wazuh + Sysmon + Sigma. Each technique documented: the attack, the log signature, the detection gap.
 
----
+**🎭 Cyber-Deception Platform** &nbsp;·&nbsp; *Python · FastAPI · Wazuh · Canarytokens*
+Generates realistic decoy documents and monitors file access to turn attacker curiosity into high-signal alerts — multi-format HoneyDocs correlating local endpoint telemetry with remote token triggers.
 
-### CTF & Competitions
-
-- 🥉 **3rd place** — INSEC CTF
-- 🚩 MCSC Qualifiers · CIT INPT 12h CTF · DGSSI Academia Cyber Competition 2026
-- Find me on [HackTheBox](https://app.hackthebox.com/) · [TryHackMe](https://tryhackme.com/) *(add your profile links)*
+**🔬 IoT Firmware Research** &nbsp;·&nbsp; *Reverse engineering · Responsible disclosure*
+Firmware extraction and static analysis of embedded/IoT targets, hunting for real vulnerabilities and reporting them through coordinated disclosure.
 
 ---
 
@@ -84,7 +79,3 @@ $ ./goals.sh
 ![GitHub Streak](https://streak-stats.demolab.com/?user=adammrani&theme=github-dark&hide_border=true)
 
 </div>
-
----
-
-<p align="center"><i>"The quieter you become, the more you are able to hear."</i></p>
